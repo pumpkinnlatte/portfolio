@@ -145,3 +145,54 @@ footer {
         width: 95%;
     }
 }
+
+
+/* Estilos para la sección de cursos */
+.courses {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.courses .section-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.courses h2 {
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.courses .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.courses .course-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.courses .course-item h4 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.courses .course-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.courses .course-link:hover {
+    background-color: #0056b3;
+}
